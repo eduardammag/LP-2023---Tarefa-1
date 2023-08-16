@@ -39,3 +39,11 @@ def números_comuns(a,b):
        if element in b:
             lista.append(element)
     return lista
+
+def elementos_não_comuns(a,b):
+    lista = []
+    for element in a:
+       if element not in b:
+           lista.append(element)
+    return lista
+    
