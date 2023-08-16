@@ -11,3 +11,13 @@ print(nda_rand)
 
 nda_soma = nda_int + nda_rand
 print(nda_soma)
+
+#2
+#Mudando a dimensão
+nda_2D = nda_soma.reshape(3,3)
+
+# Converter para float
+nda_2D_float = nda_2D.astype(float)
+
+# Calculando a transposta 
+transposta = np.transpose(nda_2D_float)
