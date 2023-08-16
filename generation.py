@@ -27,3 +27,15 @@ transposta = np.transpose(nda_2D_float)
 nda_3x3 = nda_int.reshape(3,3)
 
 nda_3x3 = nda_3x3 * nda_2D_float
+
+#4
+a1D_5 = npr.randint(3,77,50)
+
+a1D_6 = npr.randint(13,98,50)
+
+def números_comuns(a,b):
+    lista = []
+    for element in a:
+       if element in b:
+            lista.append(element)
+    return lista
