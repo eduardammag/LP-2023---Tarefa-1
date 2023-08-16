@@ -21,3 +21,9 @@ nda_2D_float = nda_2D.astype(float)
 
 # Calculando a transposta 
 transposta = np.transpose(nda_2D_float)
+
+#3
+
+nda_3x3 = nda_int.reshape(3,3)
+
+nda_3x3 = nda_3x3 * nda_2D_float
